@@ -1,6 +1,7 @@
 package com.piltz.todolistapp;
 
 public class Main {
-    static void main() {
+    public static void main() {
+        TaskApp.run();
     }
 }

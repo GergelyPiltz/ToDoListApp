@@ -4,11 +4,13 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 public class Task {
-    private final UUID id;
+    private UUID id;
     private String title;
     private String description;
     private Status status;
     private LocalDate dueDate;
+
+    public Task() {}
 
     public Task(String title, String description, LocalDate dueDate) {
         this.id = UUID.randomUUID();
@@ -20,6 +22,10 @@ public class Task {
 
     public UUID getId() {
         return id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
     }
 
     public String getTitle() {

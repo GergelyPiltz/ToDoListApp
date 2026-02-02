@@ -4,11 +4,18 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class TaskService {
-    private final Map<UUID, Task> tasks = new HashMap<>();
+    private final Map<UUID, Task> tasks;
+    private final TaskRepository repository;
+
+    public TaskService(TaskRepository repository) {
+        this.repository = repository;
+        this.tasks = repository.load();
+    }
 
     public Task addTask(String title, String description, LocalDate dueDate) {
         Task task = new Task(title, description, dueDate);
         tasks.put(task.getId(), task);
+        repository.save(tasks);
         return task;
     }
 
@@ -26,11 +33,16 @@ public class TaskService {
             return false;
         }
         task.setStatus(status);
+        repository.save(tasks);
         return true;
     }
 
     public boolean deleteTask(UUID id) {
-        return tasks.remove(id) != null;
+        boolean removed = tasks.remove(id) != null;
+        if (removed) {
+            repository.save(tasks);
+        }
+        return removed;
     }
 
 }

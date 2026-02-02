@@ -6,9 +6,10 @@ import java.util.UUID;
 
 public class TaskApp {
     private static final Scanner scanner = new Scanner(System.in);
-    private static final TaskService service = new TaskService();
+    private static final TaskRepository repository = new TaskRepository();
+    private static final TaskService service = new TaskService(repository);
 
-    public static void main(String[] args) {
+    public static void run() {
         System.out.println("Welcome to Task Manager!");
 
         while (true) {
