@@ -12,5 +12,12 @@
     "description" : "im hungry",
     "status" : "TODO",
     "dueDate" : "2026-12-12"
+  },
+  "255e31ff-507c-4ffe-be99-dfc18b66eaf5" : {
+    "id" : "255e31ff-507c-4ffe-be99-dfc18b66eaf5",
+    "title" : "Learn Spring Boot",
+    "description" : "Interview prep",
+    "status" : "TODO",
+    "dueDate" : "2026-02-01"
   }
 }

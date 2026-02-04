@@ -1,5 +1,7 @@
 package com.piltz.todolistapp;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.time.LocalDate;
 import java.util.UUID;
 
@@ -8,6 +10,8 @@ public class Task {
     private String title;
     private String description;
     private Status status;
+
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dueDate;
 
     public Task() {}

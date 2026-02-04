@@ -4,14 +4,14 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.fasterxml.jackson.databind.SerializationFeature;
-
+import org.springframework.stereotype.Repository;
 
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-
+@Repository
 public class TaskRepository {
     private static final String FILE_PATH = "tasks.json";
     private final ObjectMapper objectMapper;

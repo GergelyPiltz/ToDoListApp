@@ -1,8 +1,11 @@
 package com.piltz.todolistapp;
 
+import org.springframework.stereotype.Service;
+
 import java.time.LocalDate;
 import java.util.*;
 
+@Service
 public class TaskService {
     private final Map<UUID, Task> tasks;
     private final TaskRepository repository;
