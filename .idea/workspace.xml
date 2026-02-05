@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2170e46-1434-48f6-9d10-62147d3991aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/CreateTaskRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/TaskNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/piltz/todolistapp/TaskController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +94,7 @@
       <workItem from="1770142252671" duration="365000" />
       <workItem from="1770142631643" duration="1208000" />
       <workItem from="1770143858513" duration="4172000" />
+      <workItem from="1770315048916" duration="412000" />
     </task>
     <servers />
   </component>
